@@ -1,0 +1,226 @@
+/* 
+CSS styles for CRUDData application
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
+
+/* Header styles */
+
+
+
+/* Layout container styles */
+.layout-container {
+    max-width: 1200px;
+    
+    max-height: 1200px;
+    margin: 0 auto;
+     margin-top:-200px; 
+     color:red
+}
+form h3.form-label {
+  margin-bottom: 0px; /* Adjust the value as needed */
+}
+
+/* Content styles */
+.content {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: LEFT;
+    align-items: center;
+    width: auto !important; /* width of the content box */
+    height: 135vh; /* height of the content box */
+    margin: 0 auto;
+    
+}
+.center-align {
+  margin-bottom: 8px; 
+  color:white;/* Adjust this value to fine-tune the positioning */
+}
+
+.center-align h2 {
+  margin-bottom: 0; /* Set margin-bottom to 0 to move the heading higher */
+}
+
+
+/* Inner container styles */
+.inner-container {
+    max-width: 4000px;
+    width: 1000px;
+    height: 600px; /* Increase the height as needed */
+    text-align: center;
+    background-color: white;
+    margin-top: -9px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+/* Form label styles */
+.form-label {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 50px;
+    
+}
+.edit-customer-heading {
+    color: #000; /* Black */
+     text-align: left;
+    margin-left: 85px;
+}
+
+.form-inputbox input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1.5px solid #007BFF; /* Border color */
+    border-radius: 5px; /* Border radius for rounded corners */
+    background-color: #add8e6; /* Soft blue background color */
+    color: #333;
+    text-align: center;
+}
+/* Add Customer button styles */
+.form-inputbox input[type="submit"] {
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 7%; /* Adjust the width as needed */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007BFF;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.form-inputbox input[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+    transition: background-color 0.3s ease-in;
+}
+
+/* Reset button styles */
+
+.form-inputbox input[type="reset"] {
+    font-family: "Open Sans", sans-serif;
+    width: 70%; /* Adjust the width as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #218838;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* Hover styles for reset button */
+.form-inputbox input[type="reset"]:hover {
+    background-color: #218838; /* Darker green on hover */
+    transition: background-color 0.3s ease-in;
+}
+
+
+
+/* Select box styles */
+.form-inputbox select {
+    width: 90%;
+    padding: 10px;
+    border: 1.5px solid #007BFF; /* Border color */
+    border-radius: 5px; /* Border radius for rounded corners */
+    background-color: #add8e6; /* Soft blue background color */
+    color: #333;
+    text-align-last: center;
+}
+
+/* Select styles */
+select {
+    width: 90%;
+    padding: 10px;
+    border: 1.5px solid #333;
+    border-radius: 7px;
+}
+
+/* Password input box styles */
+.form-inputbox input[type="password"] {
+    width: 120%;
+    padding: 10px;
+    margin-bottom: 1px;
+    border: 1.5px solid #333;
+    border-radius: 7px;
+}
+
+/* Submit button styles */
+.form-inputbox input[type="submit"]{
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 96.69%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007BFF; 
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* Hover styles for submit button */
+.form-inputbox input[type="submit"]:hover{
+    background-color: #0056b3;
+    transition: background-color 0.3s ease-in;
+}
+
+/* Reset button styles */
+.form-inputbox input[type="reset"] {
+    font-family: "Open Sans", sans-serif;
+    width: 96.69%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* Hover styles for reset button */
+.form-inputbox input[type="reset"]:hover{
+    background-color: #0056b3;
+    transition: background-color 0.3s ease-in;
+}
+
+/* Password input box container styles */
+.password-inputbox {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+/* Password input styles */
+.password-inputbox input[type="password"] {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1.5px solid #333;
+    border-radius: 7px;
+}
+
+/* Text input styles in password input box */
+.password-inputbox input[type="text"] {
+    position: relative;
+    width: 90%;
+    margin-bottom: 15px;
+    border: 1.5px solid #333;
+    border-radius: 7px;
+}
+
+/* Styles for the eye icon in password input box */
+.toggle-password {
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    cursor: pointer;
+    color: #000000;
+}
